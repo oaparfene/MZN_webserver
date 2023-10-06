@@ -1,0 +1,60 @@
+CR = {CR11, CR12};
+
+ASSET = {F_35, RQ_9, Tornado_ECR, RQ_4A, RQ_4D, MQ_1B, Lanza_LTR_35};
+
+INTELL = {HUMINT, IMINT, MASINT, ACINT, OSINT, SIGINT, EW};
+
+NAI = {'45003500'};
+
+BASE = {'61042497281418'};
+
+crl = [CR11, CR12];
+
+asset_list = [F_35, RQ_9, Tornado_ECR, RQ_4A, RQ_4D, MQ_1B, Lanza_LTR_35];
+
+nai_list = ['45003500'];
+
+base_list = ['61042497281418'];
+
+required_int = [IMINT, IMINT];
+
+priority = [1, 1];
+
+location = ['45003500', '45003500'];
+
+location_int = [1, 1];
+
+required_start_time = [1321, 1321];
+
+required_duration = [59, 59];
+
+ops_start_time = [1321, 1321];
+
+ops_duration = [59, 59];
+
+sensor = [| 1, 1, 1, 1, 1, 1, 1
+| 1, 1, 1, 1, 1, 1, 1
+| 1, 1, 1, 1, 1, 1, 1
+| 1, 1, 1, 1, 1, 1, 1
+| 1, 1, 1, 1, 1, 1, 1
+| 1, 1, 1, 1, 1, 1, 1
+| 1, 1, 1, 1, 1, 1, 1|];
+
+capacity = [1440, 1440, 1440, 1440, 1440, 1440, 1440];
+
+on_station = [0, 0, 0, 0, 0, 0, 0];
+
+home = ['61042497281418', '61042497281418', '61042497281418', '61042497281418', '61042497281418', '61042497281418', '61042497281418'];
+
+home_int = [|1
+|1
+|1
+|1
+|1
+|1
+|1
+|];
+
+cost = [|0, 353, 
+|353, 0|];
+
